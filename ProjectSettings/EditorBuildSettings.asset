@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/DVT/DVT_Walkthrough.unity
+    guid: 0237224c868c34d8f81c0c1ba31d36a1
+  - enabled: 1
+    path: Assets/Scenes/DVT/DVT_CenterHotspot.unity
+    guid: a77143b35758d471ebad0cde58d11fcf
+  - enabled: 1
+    path: Assets/Scenes/DVT/DVT_Hotspot_1.unity
+    guid: 3cf7d804b42764f3cb09ff4f053273cd
+  - enabled: 1
+    path: Assets/Scenes/DVT/DVT_Hotspot_2.unity
+    guid: 2383bcf89159148f4ab27d3e78a64962
+  - enabled: 1
+    path: Assets/Scenes/DVT/DVT_Hotspot_3.unity
+    guid: 02ed7976a1c9146fea529be0584f178a
+  - enabled: 1
+    path: Assets/Scenes/DVT/DVT_HotSpot_4.unity
+    guid: ae4e59ae84ecb4e3faaa09dd3bd9f6d2
   m_configObjects: {}

@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: f22107b4bede44fa9bbf60bcee602490
+  - enabled: 1
+    path: Assets/Scenes/ExhibitSelection.unity
+    guid: 96dddb1d9855146ef82e86d2f7d490f7
+  - enabled: 1
     path: Assets/Scenes/DVT/DVT_Walkthrough.unity
     guid: 0237224c868c34d8f81c0c1ba31d36a1
   - enabled: 1
@@ -21,6 +27,24 @@ EditorBuildSettings:
     path: Assets/Scenes/DVT/DVT_Hotspot_3.unity
     guid: 02ed7976a1c9146fea529be0584f178a
   - enabled: 1
-    path: Assets/Scenes/DVT/DVT_HotSpot_4.unity
+    path: Assets/Scenes/DVT/DVT_Hotspot_4.unity
     guid: ae4e59ae84ecb4e3faaa09dd3bd9f6d2
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_Walkthrough.unity
+    guid: 952111192a5874752af3bf972e41f1ab
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_CenterHotspot.unity
+    guid: de8bf55f11c77434a97f8824edc185e2
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_Hotspot_1.unity
+    guid: f213e9f44570246d682e2b045e79ff27
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_Hotspot_2.unity
+    guid: b14b240c16ec649758dcc34207619866
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_Hotspot_3.unity
+    guid: 8905f9bcc97654d1fb2be8556e59e65f
+  - enabled: 1
+    path: Assets/Scenes/ES/ES_Hotspot_4.unity
+    guid: 23eae931c5da54ad1b540373d3f7b18a
   m_configObjects: {}

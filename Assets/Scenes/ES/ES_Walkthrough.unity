@@ -793,7 +793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 1601912272}
   isWalkthrough: 1
-  newSceneName: DVT_CenterHotspot
+  newSceneName: ES_CenterHotspot
+  videoPlayer: {fileID: 0}
 --- !u!1 &1226065792
 GameObject:
   m_ObjectHideFlags: 0
@@ -895,7 +896,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d4e814b3019ad43a692a00a45b4abefa, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a3b267883fcea40ca907034b6aff5f4f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}

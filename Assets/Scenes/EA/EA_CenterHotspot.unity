@@ -805,6 +805,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   transition: {fileID: 0}
+  isWalkthrough: 0
+  newSceneName: 
+  videoPlayer: {fileID: 0}
 --- !u!1 &905358500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1341,7 +1344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0eea757b0332b8b4f86ca8af9193ee4e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4521790568186d749adfc1007271f067, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 14125561}
   - component: {fileID: 14125560}
   m_Layer: 5
-  m_Name: Disaster Teamwork
+  m_Name: Smart Machines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,14 +148,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14125558}
-  m_LocalRotation: {x: -0.027345307, y: -0.62417066, z: 0.050592583, w: -0.7791686}
-  m_LocalPosition: {x: 0, y: 0, z: 865}
+  m_LocalRotation: {x: -0.027139595, y: -0.6273301, z: 0.050703216, w: -0.77662706}
+  m_LocalPosition: {x: 0, y: 0, z: 1966}
   m_LocalScale: {x: 7.29688, y: 7.2968793, z: 7.2968793}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 6.072, y: -282.742, z: -2.577}
+  m_LocalEulerAnglesHint: {x: 6.072, y: -282.277, z: -2.577}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 3757, y: -794}
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Shape the landscape with sand!\r"
+  m_text: Recognise different animal models
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
   m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -52.421524, y: -65.71406, z: -447.1738, w: -111.61555}
+  m_margin: {x: -33.502876, y: -65.71406, z: -447.1738, w: -111.61555}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -284,17 +284,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 313354695}
-  m_LocalRotation: {x: -0.036366448, y: -0.6236979, z: 0.04337554, w: -0.77961344}
-  m_LocalPosition: {x: 0, y: 0, z: -1316}
+  m_LocalRotation: {x: -0.036189985, y: -0.6268591, z: 0.04352289, w: -0.77707386}
+  m_LocalPosition: {x: 0, y: 0, z: 579}
   m_LocalScale: {x: 143.3234, y: 30.777157, z: -86.71886}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 6.362, y: -282.751, z: -1.284}
+  m_LocalEulerAnglesHint: {x: 6.362, y: -282.286, z: -1.284}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8982, y: -1406}
+  m_AnchoredPosition: {x: 8982, y: -1310}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &313354697
@@ -780,17 +780,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 653621588}
-  m_LocalRotation: {x: -0, y: 0.49749562, z: -0, w: 0.8674665}
-  m_LocalPosition: {x: 0, y: 0, z: 196}
+  m_LocalRotation: {x: 0.15892413, y: 0.5918574, z: -0.13717669, w: 0.7782227}
+  m_LocalPosition: {x: 0, y: 0, z: 116}
   m_LocalScale: {x: 0.30214, y: 0.30214, z: 0.30214}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 59.669, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.188, y: 74.166, z: -1.595}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 111, y: -44}
+  m_AnchoredPosition: {x: 80, y: -112}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &653621590
@@ -1275,7 +1275,7 @@ GameObject:
   - component: {fileID: 1052668128}
   - component: {fileID: 1052668127}
   m_Layer: 5
-  m_Name: Disaster Teamwork (1)
+  m_Name: Smart Machines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1288,14 +1288,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052668125}
-  m_LocalRotation: {x: -0.027345307, y: -0.62417066, z: 0.050592583, w: -0.7791686}
-  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalRotation: {x: -0.027139595, y: -0.6273301, z: 0.050703216, w: -0.77662706}
+  m_LocalPosition: {x: 0, y: 0, z: 853}
   m_LocalScale: {x: 7.29688, y: 7.2968793, z: 7.2968793}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 6.072, y: -282.742, z: -2.577}
+  m_LocalEulerAnglesHint: {x: 6.072, y: -282.277, z: -2.577}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 3757, y: -1363}
@@ -1321,7 +1321,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Create rain using your hands!
+  m_text: " and test out the AI\u2019s knowledge!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
   m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
@@ -1424,7 +1424,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: f2fe1be22b3f84145afb3be593bebbc4, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 368fe5de4dda87c478493d31dfc5e882, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1484,7 +1484,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1601912271
 RectTransform:
   m_ObjectHideFlags: 0

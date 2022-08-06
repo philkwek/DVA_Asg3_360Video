@@ -275,7 +275,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &410087040
 Light:
   m_ObjectHideFlags: 0
@@ -930,8 +930,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 932630056}
   m_LocalRotation: {x: -0.001262992, y: -0.7406756, z: -0.00040523347, w: -0.67186147}
-  m_LocalPosition: {x: 0, y: 0, z: -1316}
-  m_LocalScale: {x: 60.70412, y: 60.70412, z: -91.66322}
+  m_LocalPosition: {x: 0, y: 0, z: -1594}
+  m_LocalScale: {x: 90.3432, y: 66.50481, z: -115.97231}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
@@ -939,7 +939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.063, y: -264.422, z: 0.138}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8982, y: 1509}
+  m_AnchoredPosition: {x: 8511, y: 995}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &932630058
@@ -962,7 +962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 020271f9a3e94174dbca5df0172b661b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fdb0bd5fbc74e44028fda18d206de5cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1005,7 +1005,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: fc35bc8455e60ae43bddb280a645ed2d, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: eaff365cfac194ceaba1dbc57ff7a604, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1073,17 +1073,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601912270}
-  m_LocalRotation: {x: -0, y: 0.005611319, z: -0, w: 0.99998426}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: 0.7537652, z: -0, w: 0.6571439}
+  m_LocalPosition: {x: 0, y: 0, z: 8359}
+  m_LocalScale: {x: 2.1957936, y: 2.6550672, z: 2.6550672}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 582552848}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0.643, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 97.835, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.000061035156}
+  m_AnchoredPosition: {x: 9197, y: -1528}
   m_SizeDelta: {x: -0.00012207, y: 0.00012207}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1601912272
@@ -1119,14 +1119,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: eedea72abdeec4cab82bf0d3279ebeb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 2095558785}
   - component: {fileID: 2095558784}
   m_Layer: 5
-  m_Name: Disaster Teamwork
+  m_Name: Info Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1755,7 +1755,7 @@ RectTransform:
   m_GameObject: {fileID: 2095558782}
   m_LocalRotation: {x: -0.0012575741, y: -0.73436433, z: -0.00041370114, w: -0.67875427}
   m_LocalPosition: {x: 0, y: 0, z: -3227}
-  m_LocalScale: {x: 10.629403, y: 10.629404, z: 10.629403}
+  m_LocalScale: {x: 9.118646, y: 9.118647, z: 9.118646}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
@@ -1763,7 +1763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.063, y: -265.49298, z: 0.138}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9725, y: 2899}
+  m_AnchoredPosition: {x: 8017, y: 2899}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2095558784
@@ -1786,14 +1786,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Work together to coordinate actions during floods with the aid of strings
-    and magnets!
-
-'
+  m_text: Here is the process of the collection of data from respondents that are
+    converted into written codes used to design lantern patterns.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
-  m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
-    type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

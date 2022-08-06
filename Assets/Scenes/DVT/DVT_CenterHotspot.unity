@@ -201,7 +201,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: 0.010406174, y: 0.96631765, z: -0.057970963, w: -0.250522}
+  m_LocalRotation: {x: 0.018182106, y: -0.97017646, z: 0.056020826, w: -0.23513593}
   m_LocalPosition: {x: 217, y: -25.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -209,7 +209,7 @@ Transform:
   - {fileID: 905358501}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 6.132, y: 209.22, z: 2.834}
+  m_LocalEulerAnglesHint: {x: 5.748, y: 512.574, z: -3.551}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,30 +219,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Script: {fileID: 11500000, guid: 09c5f7375d0f94a1ab54c421c533c92d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 2
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
+  speed: 3
+  zoomSensitivity: 1.5
+  mainCamera: {fileID: 0}
 --- !u!114 &330585548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,14 +347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &541356959
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +548,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180.115, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -646,7 +620,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DVT_Hotspot_3
+          m_StringArgument: DVT_Hotspot_1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &658769360
@@ -669,7 +643,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d458e4e627c7446e5bc9b89d88b05ed2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 19b3237e8ae055e4e85ae9c90622e110, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -781,10 +755,10 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1917222235}
-  - {fileID: 1966636327}
-  - {fileID: 1745141176}
   - {fileID: 658769357}
   - {fileID: 1103527893}
+  - {fileID: 1745141176}
+  - {fileID: 1966636327}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -805,6 +779,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e13ba2c3f289742ad9b3039a4c621d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  isWalkthrough: 0
+  newSceneName: 
+  videoPlayer: {fileID: 0}
 --- !u!1 &905358500
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,7 +913,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 283.846, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1007,7 +985,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DVT_Hotspot_4
+          m_StringArgument: DVT_Hotspot_2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1103527896
@@ -1030,7 +1008,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: eedea72abdeec4cab82bf0d3279ebeb6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0eea757b0332b8b4f86ca8af9193ee4e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1073,7 +1051,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 546f5d3c6b0244261bea2698094a1622, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 49c092c6949e95c48ae8bacfc31e37a9, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1245,7 +1223,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 81.234, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1264,6 +1242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689e5f76931f5da43ad675baa0af0415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraObj: {fileID: 0}
 --- !u!114 &1745141178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1317,7 +1296,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DVT_Hotspot_2
+          m_StringArgument: DVT_Hotspot_3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1745141179
@@ -1340,7 +1319,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a52980e9cf60143d69aacc4f700ac7ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2dd2a35d0fc87c440878f14e147429aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1486,7 +1465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 47a7cc0370cd34486b9457f60aba8d5f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4521790568186d749adfc1007271f067, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1537,7 +1516,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 773350001}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -337.774, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1609,7 +1588,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: DVT_Hotspot_1
+          m_StringArgument: DVT_Hotspot_14
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1966636330
@@ -1632,7 +1611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40959f4b3e02348cd874fd4190d6a5ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4c06bd94547f5014cac532cf5da96adb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

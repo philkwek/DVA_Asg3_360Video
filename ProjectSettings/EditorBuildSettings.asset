@@ -13,22 +13,22 @@ EditorBuildSettings:
     guid: 96dddb1d9855146ef82e86d2f7d490f7
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_Walkthrough.unity
-    guid: 0237224c868c34d8f81c0c1ba31d36a1
+    guid: a6bbae55ff4254f41b9b57e7d709f1c4
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_CenterHotspot.unity
-    guid: a77143b35758d471ebad0cde58d11fcf
+    guid: e198271a8f2be408ca44039253df27c2
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_Hotspot_1.unity
-    guid: 3cf7d804b42764f3cb09ff4f053273cd
+    guid: 27ca326a05a6c4a499a5ec36d859a3c6
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_Hotspot_2.unity
-    guid: 2383bcf89159148f4ab27d3e78a64962
+    guid: eaf9882e9eb494207a8750c2fd0d9ccc
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_Hotspot_3.unity
-    guid: 02ed7976a1c9146fea529be0584f178a
+    guid: 478539f0ac30a45c4a10bf0fa16ac3b8
   - enabled: 1
     path: Assets/Scenes/DVT/DVT_Hotspot_4.unity
-    guid: ae4e59ae84ecb4e3faaa09dd3bd9f6d2
+    guid: c8770ca9b4e1d487f94da4abebc2969a
   - enabled: 1
     path: Assets/Scenes/ES/ES_Walkthrough.unity
     guid: 952111192a5874752af3bf972e41f1ab
@@ -47,4 +47,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ES/ES_Hotspot_4.unity
     guid: 23eae931c5da54ad1b540373d3f7b18a
+  - enabled: 1
+    path: Assets/Scenes/EA/EA_Walkthrough.unity
+    guid: 8b02b91b5f37f432d98895c23b2dd369
+  - enabled: 1
+    path: Assets/Scenes/EA/EA_CenterHotspot.unity
+    guid: c8748301048464c3c9d82237d7566a72
+  - enabled: 1
+    path: Assets/Scenes/EA/EA_Hotspot_1.unity
+    guid: cc615bc5e1b444960ac2143dcda8514d
+  - enabled: 1
+    path: Assets/Scenes/EA/EA_Hotspot_2.unity
+    guid: 06875122230054f1893ede7c2009d085
+  - enabled: 1
+    path: Assets/Scenes/EA/EA_Hotspot_3.unity
+    guid: 32e6743aaac5043378e3ac638fd70e30
   m_configObjects: {}

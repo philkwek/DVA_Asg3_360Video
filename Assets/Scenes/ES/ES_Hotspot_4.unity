@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.100218415, g: 0.08901709, b: 0.08079967, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -183,8 +183,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Evolution of \nEnergy Sources"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
-  m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
+  m_fontAsset: {fileID: 11400000, guid: 932d1fc1076a044b19f2392e88b76b27, type: 2}
+  m_sharedMaterial: {fileID: 2730851930133273800, guid: 932d1fc1076a044b19f2392e88b76b27,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -861,6 +861,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff783295b7fd474abe39a7cb0730770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  isWalkthrough: 0
+  newSceneName: 
+  videoPlayer: {fileID: 0}
 --- !u!114 &591822510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -966,7 +970,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &816627277
 RectTransform:
   m_ObjectHideFlags: 0
@@ -999,6 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55656376d4bda46d3913ea64c4a77574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraObj: {fileID: 0}
 --- !u!114 &816627279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1179,7 +1184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1eb968db0b42e5946b1311a431cc09b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e04170b3c23884a44b9c4632037bf4ef, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1270,7 +1275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 44698968e987b7a43ba4ef2c807c5d86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 34dd2f90d8c1c4b5fbe512c7d58a33a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1411,7 +1416,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1244171526}
   m_LocalRotation: {x: 0.022612462, y: 0.0087654, z: -0.002054833, w: 0.99970376}
-  m_LocalPosition: {x: 0, y: 0, z: -12.7}
+  m_LocalPosition: {x: 0, y: 0, z: -0.2}
   m_LocalScale: {x: 0.1738062, y: 0.46297887, z: 0.27349427}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1420,7 +1425,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -20.092, y: 59.453, z: 8.855}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11.8, y: 26.4}
+  m_AnchoredPosition: {x: -8.52, y: 30.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1244171528
@@ -1446,8 +1451,8 @@ MonoBehaviour:
   m_text: How people of the past, present and future harness the different energy
     sources!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
-  m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
+  m_fontAsset: {fileID: 11400000, guid: 932d1fc1076a044b19f2392e88b76b27, type: 2}
+  m_sharedMaterial: {fileID: 2730851930133273800, guid: 932d1fc1076a044b19f2392e88b76b27,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1547,7 +1552,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ff677d6eb3d7024f81bedf68c802d7f, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: ae1518da1f06e4aa3b244cc2637f814c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1563,7 +1568,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.1
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00

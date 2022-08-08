@@ -337,7 +337,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0, y: 0.9527623, z: -0, w: -0.30371708}
+  m_LocalRotation: {x: -0, y: -0.70866936, z: -0, w: 0.7055408}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -345,7 +345,7 @@ Transform:
   - {fileID: 905358501}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 215.362, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.254, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1177,6 +1177,7 @@ GameObject:
   - component: {fileID: 1745141179}
   - component: {fileID: 1745141178}
   - component: {fileID: 1745141177}
+  - component: {fileID: 1745141181}
   m_Layer: 5
   m_Name: Button - Flight Simulator
   m_TagString: Untagged
@@ -1192,7 +1193,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745141175}
   m_LocalRotation: {x: -0, y: -0.99052006, z: -0, w: 0.13736804}
-  m_LocalPosition: {x: 0, y: 0, z: -200.5}
+  m_LocalPosition: {x: 0, y: 0, z: 148.9}
   m_LocalScale: {x: 0.44316, y: 0.44316, z: 0.44316}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1201,7 +1202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -164.209, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -195.1, y: -72}
+  m_AnchoredPosition: {x: -658.1, y: -72}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1745141177
@@ -1310,6 +1311,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1745141175}
   m_CullTransparentMesh: 1
+--- !u!114 &1745141181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1745141175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55656376d4bda46d3913ea64c4a77574, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraObj: {fileID: 0}
 --- !u!1 &1917222234
 GameObject:
   m_ObjectHideFlags: 0

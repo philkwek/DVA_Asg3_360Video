@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.100218415, g: 0.08901709, b: 0.08079967, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -336,7 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689e5f76931f5da43ad675baa0af0415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObj: {fileID: 0}
 --- !u!114 &138118619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0fd5f52878456d4c8ea9df8cdef5d0f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 34dd2f90d8c1c4b5fbe512c7d58a33a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1047,7 +1046,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940428448}
   m_LocalRotation: {x: 0.0226369, y: 0.008702547, z: 0.0007383675, w: 0.9997056}
-  m_LocalPosition: {x: 0, y: 0, z: -14.993087}
+  m_LocalPosition: {x: 0, y: 0, z: -2.2}
   m_LocalScale: {x: 0.31298283, y: 0.8337419, z: 0.49250147}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1056,7 +1055,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -1.489, y: 126.637, z: -18.369}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.90625, y: 13.735596}
+  m_AnchoredPosition: {x: -13.8, y: 12.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &940428450
@@ -1081,8 +1080,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Light a Shade
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
-  m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
+  m_fontAsset: {fileID: 11400000, guid: 932d1fc1076a044b19f2392e88b76b27, type: 2}
+  m_sharedMaterial: {fileID: 2730851930133273800, guid: 932d1fc1076a044b19f2392e88b76b27,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1177,7 +1176,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1084524576
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1210,6 +1209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55656376d4bda46d3913ea64c4a77574, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cameraObj: {fileID: 0}
 --- !u!114 &1084524578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1316,7 +1316,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689e5f76931f5da43ad675baa0af0415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObj: {fileID: 0}
 --- !u!1 &1272599144
 GameObject:
   m_ObjectHideFlags: 0
@@ -1342,7 +1341,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272599144}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 6f378f63e20d4cf408f1c3c3c9eb9b30, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: a4903a15669514f6486fcb82240cd470, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -1358,7 +1357,7 @@ VideoPlayer:
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0.1
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
@@ -1410,7 +1409,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1503464720}
   m_LocalRotation: {x: 0.022612488, y: 0.008765816, z: -0.0020547656, w: 0.99970376}
-  m_LocalPosition: {x: 0, y: 0, z: -15.513317}
+  m_LocalPosition: {x: 0, y: 0, z: -5.1}
   m_LocalScale: {x: 0.20455255, y: 0.54487973, z: 0.32187542}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1419,7 +1418,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: -2.906, y: 81.072, z: 0.35}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.971436, y: 20.464966}
+  m_AnchoredPosition: {x: -13.9, y: 19.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1503464722
@@ -1444,8 +1443,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Pedal the bike to generate energy to take a picture on the wall!  '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 17e61504041f12c46801d8288b5b5f32, type: 2}
-  m_sharedMaterial: {fileID: 2730851930133273800, guid: 17e61504041f12c46801d8288b5b5f32,
+  m_fontAsset: {fileID: 11400000, guid: 932d1fc1076a044b19f2392e88b76b27, type: 2}
+  m_sharedMaterial: {fileID: 2730851930133273800, guid: 932d1fc1076a044b19f2392e88b76b27,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1573,6 +1572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff783295b7fd474abe39a7cb0730770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 0}
+  isWalkthrough: 0
+  newSceneName: 
+  videoPlayer: {fileID: 0}
 --- !u!114 &1880549712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1719,7 +1722,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1eb968db0b42e5946b1311a431cc09b6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6158cf41c0dc2436d9eae8b3da0a631e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1749,4 +1752,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 689e5f76931f5da43ad675baa0af0415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraObj: {fileID: 0}
